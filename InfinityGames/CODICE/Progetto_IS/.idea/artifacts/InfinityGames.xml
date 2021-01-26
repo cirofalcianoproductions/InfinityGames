@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="InfinityGames">
+    <output-path>$PROJECT_DIR$/out/artifacts/InfinityGames</output-path>
+    <root id="archive" name="InfinityGames.war">
+      <element id="artifact" artifact-name="InfinityGamesIS:war exploded" />
+    </root>
+  </artifact>
+</component>

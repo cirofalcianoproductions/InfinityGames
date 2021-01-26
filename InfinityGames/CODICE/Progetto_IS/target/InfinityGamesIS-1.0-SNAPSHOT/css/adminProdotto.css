@@ -1,0 +1,37 @@
+.add{
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+}
+
+.add-prod{
+    width: 650px;
+    margin: 20px auto;
+}
+.form-prod{
+    background-color: darkgray;
+    padding: 10px;
+}
+.messaggio{
+    height: 35px;
+    color: green;
+    font-size: 20px;
+    transition: 0.5s;
+    background: darkgray;
+    margin-bottom: 5px;
+    text-align: center;
+}
+@media screen and (max-width: 270px) {
+    input {
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .add-prod{
+        width: 100%;
+    }
+}

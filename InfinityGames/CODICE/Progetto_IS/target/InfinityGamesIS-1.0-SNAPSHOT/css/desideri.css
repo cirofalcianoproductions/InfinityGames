@@ -1,0 +1,33 @@
+
+.contiene{
+    margin: 2%;
+}
+
+
+.des{
+
+    border: groove;
+    margin-top: 1%;
+    width: 580px;
+    height: 140px;
+}
+
+.img{
+    width: 10%;
+    margin: 1%;
+}
+
+.desc, .addcar , .remove , .img{
+    margin-left: 3%;
+    float: left;
+}
+
+@media screen and (max-width: 470px){
+    .img{
+        width: 20%;
+    }
+    .des{
+        width: 255px;
+        height: 200px;
+    }
+}

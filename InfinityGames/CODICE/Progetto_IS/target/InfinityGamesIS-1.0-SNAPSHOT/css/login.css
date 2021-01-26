@@ -1,0 +1,221 @@
+.page-content {
+
+    height: 55%;
+    transition: 0.5s;
+}
+
+.main {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+#error-display {
+    color: rgb(204, 51, 0);
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    margin: 15px 0px 15px 0px;
+    width: 300px;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .main {
+        width: 530px;
+    }
+
+    div.leftcol {
+        width: 100%;
+    }
+
+    .page-content {
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .main {
+        width: 100%;
+    }
+
+    #error-display {
+        width: 65%;
+        margin-left: 10%;
+    }
+
+    .box-right {
+        display: none;
+    }
+
+    .page-content {
+
+        height: 70%;
+
+    }
+
+    .page-content div.leftcol {
+        width: 65%;
+        margin-left: 10%;
+    }
+
+    .loginbox-sep {
+        display: none;
+    }
+
+    .leftcol .loginbox {
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 328px) {
+    .page-content {
+        height: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+div.leftcol {
+    background: rgba(0, 0, 0, 0.2);
+    width: 550px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.leftcol-reg {
+    background: rgba(0, 0, 0, 0.2);
+    width: 550px;
+    margin: 20px auto;
+    padding: 1%;
+}
+
+@media screen and (max-width: 580px) {
+
+    .leftcol-reg {
+        width: 100%;
+    }
+}
+
+.loginbox {
+
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginbox-left {
+    flex: 1;
+    position: relative;
+
+}
+
+.loginbox-sep {
+    flex: 0;
+    border-left: 1px solid #264959;
+    width: 2px;
+    height: 210px;
+    margin: 0 16px;
+}
+
+.loginbox-right {
+    flex: 1;
+    position: relative;
+
+}
+
+.loginbox-last {
+    padding: 16px;
+}
+
+.box-right {
+
+    background: rgba(0, 0, 0, 0.2);
+    float: left;
+    min-height: 300px;
+    padding: 10px;
+    border: none;
+}
+
+ul#why_list {
+    list-style-position: inside;
+    list-style-type: square;
+    line-height: 22px;
+}
+
+.acc-eff {
+    height: 70%;
+}
+
+.acc-eff div {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0px 400px;
+    text-align: center;
+}
+
+.acc-eff a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+#registramimessaggio{
+    font-size: 25px;
+    color: red;
+}
+.page-content2{
+
+}

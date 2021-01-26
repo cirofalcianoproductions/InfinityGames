@@ -1,0 +1,10 @@
+.add-cat{
+    width: 300px;
+    margin: 20px auto;
+}
+.form-cat{
+    padding: 5px;
+    background-color: darkgray;
+    box-shadow: 2px 2px 2px 2px;
+}
+

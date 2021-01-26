@@ -1,0 +1,103 @@
+.imagine{
+
+    display: inline-block;
+
+}
+
+.imagine img {
+
+    height: 150px;
+    padding: 5%;
+}
+
+.nome-desc {
+
+    width: 50%;
+    margin: 2% auto;
+    display: inline-block;
+}
+
+.end {
+
+}
+
+.nome-prod{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.cat a{
+    color: white;
+}
+.cat p{
+    text-transform: lowercase;
+    color: white;
+}
+.cat{
+    display: inline-block;
+}
+
+.prodotto{
+    width: 620px;
+    margin: 0px auto;
+
+}
+
+@media screen and (max-width: 640px) {
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+    .prodotto{
+        width: 100%;
+
+    }
+}
+
+
+.contain-prod {
+
+    -webkit-box-shadow: inset -13px 5px 100px -7px #000000,0px 12px 64px 65px #000000;
+    -moz-box-shadow: inset -13px 5px 100px -7px #000000,0px 12px 64px 65px #000000;
+    -o-box-shadow: inset -13px 5px 100px -7px #000000,0px 12px 64px 65px #000000;
+    box-shadow: inset -13px 5px 100px -7px #000000,0px 12px 64px 65px #000000;
+    margin-bottom: 50px;
+    background-color: #171a21;
+}
+.img-nom-desc {
+    width: 100%;
+    padding: 10px;
+   display: inline-block;
+}
+.nome-desc p{
+    font-size: 20px;
+    color: white;
+}
+.video{
+    display: inline-block;
+    padding: 10px;
+}
+
+.carr{
+    display: inline-block;
+}
+.span{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+.prezzo{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.scont{
+    background-color: green;
+    padding: 5px;
+}
+
+.pref{
+    display: inline-block;
+}

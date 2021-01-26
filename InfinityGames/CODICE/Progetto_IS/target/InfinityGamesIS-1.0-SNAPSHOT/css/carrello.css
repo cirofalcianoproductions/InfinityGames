@@ -1,0 +1,114 @@
+
+
+#conferma {
+    display: none;
+}
+
+#form {
+    display: block;
+}
+.contain-all {
+
+}
+
+.carrello {
+
+    border-top-style: groove;
+    border-bottom-style: none;
+    border-color: #bbbbbb;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #1a212b;
+
+}
+
+.carrello img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 180px;
+
+}
+
+.centrale{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.carrello-all{
+   display: inline-block;
+
+}
+
+.carrello-img{
+    float: left;
+}
+
+.sub-carrello {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.prezzo-unit {
+float: right;
+}
+
+.carrello-main{
+    display: inline-block;
+
+}
+.riepilogo{
+    display: inline-block;
+    border: solid 3px;
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.sub{
+    display: inline-block;
+    width: 150px;
+}
+
+.vuoto{
+    box-shadow: 1px 1px 1px 1px;
+    padding: 2%;
+    margin-bottom: 10px;
+    background-color: darkgray;
+}
+
+@media screen and (max-width: 930px){
+    .centrale{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .riepilogo{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 758px){
+   .carrello{
+       font-size: 15px;
+   }
+}
+@media screen and (max-width: 646px){
+   .centrale{
+       width: 90%;
+       margin-left: 3%;
+   }
+    .sub{
+        width: 100px;
+    }
+    .riepilogo{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 410px){
+
+    .prezzo-unit{
+        float: none;
+    }
+}

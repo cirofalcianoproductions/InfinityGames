@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: #f2f2f2;
+    border: solid;
+}
+
+.utenti {
+    width: 660px;
+    margin: 20px auto;
+}
+
+.messaggio{
+    height: 35px;
+    color: green;
+    font-size: 20px;
+    transition: 0.5s;
+    background: darkgray;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 690px) {
+    .utenti {
+        width: 100%;
+    }
+}

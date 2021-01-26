@@ -1,0 +1,204 @@
+
+#n1{
+    display: inline;
+}
+#n2{
+   display: inline;
+}
+
+#n3{
+    display: inline;
+}
+#menu-main{
+
+}
+
+.tab-bar{
+    height: 20px;
+    display: inline;
+   /* box-shadow: 0 8px 0 0px #214b6b;*/
+
+}
+
+#menu-main a{
+    color: #000000;
+    text-decoration: None;
+    padding: 1%;
+
+}
+
+
+
+#menu-main .tab-bar #n1 a:hover,#menu-main .tab-bar #n2 a:hover,#menu-main .tab-bar #n3 a:hover  {
+    color: white;
+}
+
+#sottomenu1 , #sottomenu2 , #sottomenu3{
+    position: relative;
+    display: none;
+    border: Solid 1px #000000;
+    width: 100%;
+    top: 10px;
+}
+ #sottomenu1 ul, #sottomenu2 ul, #sottomenu3 ul{
+     list-style-type: none;
+ }
+
+ #sottomenu1 li{
+
+ }
+
+ .img-col{
+     float: left;
+     margin-right: 10px;
+ }
+
+ .sub-img img{
+     width: 100px;
+     height: 120px;
+ }
+ .col-2{
+     display: inline-block;
+ }
+
+ .right-col{
+     display: inline-block;
+     height: 120px;
+ }
+.contieni{
+    padding: 10px;
+    background-color: slategray;
+    height: 150px;
+    transition: 0.5s;
+    border-bottom: solid 1px;
+}
+.contieni-des{
+    padding: 10px;
+    background-color: slategray;
+    height: 150px;
+    transition: 0.5s;
+    border-bottom: solid 1px;
+}
+
+.name-over{
+
+}
+.prezzo-down{
+
+}
+.contain{
+    width: 800px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-2-right{
+    float: right;
+    margin-right: 8%
+}
+.categoria{
+    text-decoration: none;
+    color: darkgrey;
+}
+.ordina{
+    display: inline-table;
+    width: 55%;
+    margin-left: 60px;
+    height: 27px;
+}
+
+
+.ordina i:hover{
+    color: white;
+}
+
+
+.pagina{
+    position: relative;
+    top: 10px;
+}
+.tab-bar2{
+    border-bottom: solid #214b6b;
+}
+.ordina2{
+    display: inline-table;
+    width: 100%;
+}
+.ordina2 i{
+    text-decoration: underline;
+    color: white;
+}
+
+.contain-desideri{
+
+    width: 800px;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 808px){
+    .contain{
+        width: 98%;
+        margin: 30px auto;
+    }
+    .tab-bar{
+        height: 21px;
+    }
+    .ordina{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 7px;
+    }
+    .contieni{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 620px){
+
+    .col-2-right{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 461px){
+
+   .contieni{
+       height: 180px;
+   }
+}
+@media screen and (max-width: 294px){
+
+    .contieni{
+        height: 220px;
+    }
+    .col-2-right{
+        display: none;
+    }
+    .sub-prezzo h5{
+        margin-top: 0px;
+    }
+    .name-over h5{
+        margin-bottom: 0px;
+    }
+    .sub-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 827px){
+
+    .contain-desideri{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .contieni-des{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 467px){
+
+    .contieni-des{
+        height: 260px;
+    }
+}

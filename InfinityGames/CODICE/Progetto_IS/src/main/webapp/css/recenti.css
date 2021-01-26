@@ -1,0 +1,111 @@
+.recenti{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.allProd{
+    width: 100%;
+}
+.prod{
+    border-bottom: groove;
+    height: 130px;
+    padding: 1%;
+    display: inline-block;
+}
+.prod-img , .prod-desc{
+    margin-left: 2%;
+    float: left;
+    padding: 1%;
+}
+
+.prod-desc{
+    width: 70%;
+}
+.prod-img{
+    width: 20%;
+}
+.lato{
+    float: left;
+    margin-left: 3%;
+}
+.sconto{
+    display: inline-block;
+    background-color: green;
+    text-align: center;
+}
+.prezzo-sconto{
+    display: inline-block;
+}
+#menu{
+    position: relative;
+    width: 100%;
+    border: Solid 1px #000000;
+    font-size: 15px;
+}
+.contain-recenti{
+    width: 700px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contieni-rec{
+    padding: 10px;
+    background-color: slategray;
+    height: 150px;
+    border-bottom: solid 1px;
+    transition: 0.5s;
+}
+
+.col-2-right-rec{
+    float: right;
+}
+
+.col-2-rec{
+    display: inline-block;
+}
+
+.right-col-rec{
+    display: inline-block;
+    height: 120px;
+}
+
+.img-col-rec{
+    float: left;
+    margin-right: 10px;
+}
+
+.sub-img-rec img{
+    width: 100px;
+    height: 120px;
+}
+@media screen and (max-width: 730px){
+    .contain-recenti{
+        width: 98%;
+        margin: 20px 5px;
+    }
+}
+@media screen and (max-width: 470px){
+    .contieni-rec{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 275px){
+    .contieni-rec{
+        height: 300px;
+    }
+    .name-over h5{
+        margin-bottom: 0px;
+    }
+    .sub-prezzo h5{
+        margin-top: 0px;
+    }
+    .sub-img-rec img{
+        width: 100%;
+    }
+    .right-col-rec{
+        height: 70px;
+    }
+    .contain-recenti{
+        margin: 0px;
+    }
+}

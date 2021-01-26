@@ -1,0 +1,43 @@
+.all{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.ordini{
+
+    margin-bottom: 10px;
+}
+
+.prodotto-ordine{
+    display: inline-block;
+    margin-right: 2%;
+}
+.contain-ord{
+
+    background-color: lightgray;
+    width: 70%;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+
+.info-lato{
+    display: inline-block;
+    margin-right: 5px;
+}
+.info{
+    border: solid black;
+    width: 460px;
+    background-color: darkgray;
+    padding: 5px;
+    border-bottom: none;
+}
+@media screen and (max-width: 490px){
+
+    .info{
+        width: 100%;
+    }
+}
